@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'sugarcube'
+gem 'sugarcube', require: ['sugarcube-ui', 'sugarcube-color']
+gem 'motion-redgreen'
