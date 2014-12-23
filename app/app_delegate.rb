@@ -1,8 +1,10 @@
 class AppDelegate
+  TEST_COLOR = '#ffffff'.uicolor
+
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     rootViewController = UIViewController.alloc.init
     rootViewController.title = 'test_sugar_string'
-    rootViewController.view.backgroundColor = UIColor.whiteColor
+    rootViewController.view.backgroundColor = '#888888'.uicolor
 
     navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
 

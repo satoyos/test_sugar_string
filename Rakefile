@@ -6,7 +6,5 @@ require 'bundler'
 Bundler.require
 
 Motion::Project::App.setup do |app|
-  # Use `rake config' to see complete project settings.
   app.name = 'test_sugar_string'
-  app.redgreen_style = :focused
 end
